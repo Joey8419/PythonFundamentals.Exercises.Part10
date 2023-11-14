@@ -48,7 +48,7 @@ class Bank:
         # Withdraw money from account
         if account.balance >= amount:
             account.balance -= amount
-            print(f"${amount} withdrawn from account {account.number} now has a new balnce of: {account.balance}")
+            print(f"${amount} withdrawn from account {account.number} now has a new balance of: {account.balance}")
         else:
             print("YOU BROKE BIH")
 
